@@ -1,6 +1,8 @@
 -- ========================================
 -- E-COMMERCE DATABASE - SQL QUERIES
--- Student:  Sanskruti-316
+-- Student:  Sanskruti-333
+-- Student:  Nivrutti-332
+-- Student:  Kedar-323
 -- Project: E-Commerce Database Management System
 -- ========================================
 
@@ -374,5 +376,5 @@ AND p1.product_name != 'i phone 15';
 
 -- ========================================
 -- END OF QUERIES
--- Total Queries: 46 (exceeds all minimum requirements)
+-- Total Queries: 46 
 -- ========================================
