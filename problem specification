@@ -1,16 +1,1 @@
-Mini-World Problem: E-Commerce Database Management System
-
-Description: This system manages an online e-commerce platform where:
-
-Customers can browse products, add items to cart, place orders, and write reviews
-Sellers can list products under various categories
-The system tracks customer addresses, orders, payments, and product inventory
-Reviews help other customers make informed decisions
-Payment modes (online/offline) are supported
-Additional Requirements (add these to make it yours):
-
-Track order delivery status
-Manage product stock availability
-Calculate total sales per seller
-Generate customer purchase history
-Analyze product ratings and reviews
+he proposed E-Commerce Database Management System is designed to manage online shopping activities by handling customers, sellers, products, orders, payments, and reviews efficiently. The system stores customer details such as name, email, phone number, date of birth, and a derived age, and allows each customer to have multiple addresses. Sellers are registered with basic details and can sell multiple products, while each product belongs to exactly one seller and one category. Product information includes product name, brand, MRP, and stock status, and categories are used to classify products. Customers can add products to a shopping cart, where item total and grand total are derived values. When a customer places an order, order details such as order date, shipping date, amount, and status are recorded. The OrderItem entity resolves the many-to-many relationship between orders and products by storing product-wise quantity and MRP. Payments made by customers are recorded with payment mode and date, and each payment corresponds to a single order. Customers can also submit reviews for products, including ratings and descriptions. The system maintains referential integrity using primary and foreign keys, avoids redundancy through derived attributes, and ensures a structured and normalized database design suitable for an e-commerce platform.
